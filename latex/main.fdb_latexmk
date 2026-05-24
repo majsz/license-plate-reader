@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1779616922.88306 "c:/Users/asiad/Desktop/license-plate-reader/latex/main.tex" "main.pdf" "main" 1779616925.02404 0
-  "c:/Users/asiad/Desktop/license-plate-reader/latex/main.tex" 1779616920 4618 05ab35e720d250f445f0fafa6c7750d6 ""
+["pdflatex"] 1779619079.21501 "c:/Users/asiad/Desktop/license-plate-reader/latex/main.tex" "main.pdf" "main" 1779619081.51553 0
+  "c:/Users/asiad/Desktop/license-plate-reader/latex/main.tex" 1779619077 4693 a71b55bf3b5a7fd8b5acfec6aadcd8d4 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1740770123 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1740770124 2327 9d6df24f9c4f7368395224341a95523a ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1740768588 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -207,11 +207,11 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1740775179 5512713 1e2df2d1e914a8052c604db674da6db6 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1740775342 3352887 6a4f67cc9524e426880524feda0fadc4 ""
   "c:/texlive/2024/texmf.cnf" 1740775138 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1779616924 3963 50d7020c626a20519c91e29ab3a1b220 "pdflatex"
-  "main.nav" 1779616924 2239 5fadf082135ef56d6a72b0ddbabb29ba "pdflatex"
-  "main.out" 1779616924 1150 91a8508ecd5a203e098ceb59257792d0 "pdflatex"
-  "main.tex" 1779616920 4618 05ab35e720d250f445f0fafa6c7750d6 ""
-  "main.toc" 1779616924 499 89718f59c977e7033715669a5b9a1a1e "pdflatex"
+  "main.aux" 1779619081 4089 c9853ca20a047649210fc8f2261dad6f "pdflatex"
+  "main.nav" 1779619081 2329 469670b3df6731dac1ab5df95b113a7a "pdflatex"
+  "main.out" 1779619081 1150 91a8508ecd5a203e098ceb59257792d0 "pdflatex"
+  "main.tex" 1779619077 4693 a71b55bf3b5a7fd8b5acfec6aadcd8d4 ""
+  "main.toc" 1779619081 499 6721c6b339235c442c3ce5c26b283008 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

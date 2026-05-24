@@ -5,40 +5,42 @@
 \headcommand {\beamer@sectionpages {1}{2}}
 \headcommand {\beamer@subsectionpages {1}{2}}
 \headcommand {\sectionentry {1}{Streszczenie}{3}{Streszczenie}{0}}
-\headcommand {\beamer@sectionpages {3}{2}}
-\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\sectionentry {2}{Wstęp / wprowadzenie}{3}{Wstęp / wprowadzenie}{0}}
-\headcommand {\beamer@sectionpages {3}{2}}
-\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\sectionentry {3}{Opis kontekstu i celu projektu}{3}{Opis kontekstu i celu projektu}{0}}
-\headcommand {\beamer@sectionpages {3}{2}}
-\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\sectionentry {4}{Literatura}{3}{Literatura}{0}}
-\headcommand {\beamer@sectionpages {3}{2}}
-\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\sectionentry {5}{Opis danych}{3}{Opis danych}{0}}
-\headcommand {\beamer@sectionpages {3}{2}}
-\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\sectionentry {6}{Opis użytych metod}{3}{Opis użytych metod}{0}}
-\headcommand {\beamer@sectionpages {3}{2}}
-\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\sectionentry {7}{Opis wdrożenia metod / modelu}{3}{Opis wdrożenia metod / modelu}{0}}
-\headcommand {\beamer@sectionpages {3}{2}}
-\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\sectionentry {8}{Wyniki}{3}{Wyniki}{0}}
-\headcommand {\beamer@sectionpages {3}{2}}
-\headcommand {\beamer@subsectionpages {3}{2}}
-\headcommand {\sectionentry {9}{Wnioski}{3}{Wnioski}{0}}
-\headcommand {\slideentry {9}{0}{1}{3/6}{}{0}}
-\headcommand {\beamer@framepages {3}{6}}
-\headcommand {\slideentry {9}{0}{2}{7/9}{}{0}}
-\headcommand {\beamer@framepages {7}{9}}
-\headcommand {\slideentry {9}{0}{3}{10/10}{}{0}}
-\headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {9}{0}{4}{11/11}{}{0}}
+\headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\beamer@sectionpages {3}{3}}
+\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\sectionentry {2}{Wstęp / wprowadzenie}{4}{Wstęp / wprowadzenie}{0}}
+\headcommand {\beamer@sectionpages {4}{3}}
+\headcommand {\beamer@subsectionpages {4}{3}}
+\headcommand {\sectionentry {3}{Opis kontekstu i celu projektu}{4}{Opis kontekstu i celu projektu}{0}}
+\headcommand {\beamer@sectionpages {4}{3}}
+\headcommand {\beamer@subsectionpages {4}{3}}
+\headcommand {\sectionentry {4}{Literatura}{4}{Literatura}{0}}
+\headcommand {\beamer@sectionpages {4}{3}}
+\headcommand {\beamer@subsectionpages {4}{3}}
+\headcommand {\sectionentry {5}{Opis danych}{4}{Opis danych}{0}}
+\headcommand {\beamer@sectionpages {4}{3}}
+\headcommand {\beamer@subsectionpages {4}{3}}
+\headcommand {\sectionentry {6}{Opis użytych metod}{4}{Opis użytych metod}{0}}
+\headcommand {\beamer@sectionpages {4}{3}}
+\headcommand {\beamer@subsectionpages {4}{3}}
+\headcommand {\sectionentry {7}{Opis wdrożenia metod / modelu}{4}{Opis wdrożenia metod / modelu}{0}}
+\headcommand {\beamer@sectionpages {4}{3}}
+\headcommand {\beamer@subsectionpages {4}{3}}
+\headcommand {\sectionentry {8}{Wyniki}{4}{Wyniki}{0}}
+\headcommand {\beamer@sectionpages {4}{3}}
+\headcommand {\beamer@subsectionpages {4}{3}}
+\headcommand {\sectionentry {9}{Wnioski}{4}{Wnioski}{0}}
+\headcommand {\slideentry {9}{0}{1}{4/7}{}{0}}
+\headcommand {\beamer@framepages {4}{7}}
+\headcommand {\slideentry {9}{0}{2}{8/10}{}{0}}
+\headcommand {\beamer@framepages {8}{10}}
+\headcommand {\slideentry {9}{0}{3}{11/11}{}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@partpages {1}{11}}
-\headcommand {\beamer@subsectionpages {3}{11}}
-\headcommand {\beamer@sectionpages {3}{11}}
-\headcommand {\beamer@documentpages {11}}
-\headcommand {\gdef \inserttotalframenumber {6}}
+\headcommand {\slideentry {9}{0}{4}{12/12}{}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\beamer@partpages {1}{12}}
+\headcommand {\beamer@subsectionpages {4}{12}}
+\headcommand {\beamer@sectionpages {4}{12}}
+\headcommand {\beamer@documentpages {12}}
+\headcommand {\gdef \inserttotalframenumber {7}}
