@@ -4,7 +4,9 @@
 \beamer@sectionintoc {3}{Opis kontekstu i celu projektu}{5}{0}{3}
 \beamer@sectionintoc {4}{Literatura}{6}{0}{4}
 \beamer@sectionintoc {5}{Opis danych}{7}{0}{5}
-\beamer@sectionintoc {6}{Opis danych}{8}{0}{6}
-\beamer@sectionintoc {7}{Opis wdrożenia metod / modelu}{9}{0}{7}
-\beamer@sectionintoc {8}{Wyniki}{10}{0}{8}
-\beamer@sectionintoc {9}{Wnioski}{11}{0}{9}
+\beamer@sectionintoc {6}{Opis metod}{9}{0}{6}
+\beamer@sectionintoc {7}{Opis użytych metod}{10}{0}{7}
+\beamer@sectionintoc {8}{Opis wdrożenia metod / modelu}{14}{0}{8}
+\beamer@sectionintoc {9}{Opis wdrożenia metod / modelu}{15}{0}{9}
+\beamer@sectionintoc {10}{Wyniki}{19}{0}{10}
+\beamer@sectionintoc {11}{Wnioski}{20}{0}{11}
