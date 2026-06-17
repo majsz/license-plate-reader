@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1781722242.80172 "c:/Users/asiad/Desktop/license-plate-reader/latex/license-plate-reader.tex" "license-plate-reader.pdf" "license-plate-reader" 1781722245.6785 0
-  "c:/Users/asiad/Desktop/license-plate-reader/latex/license-plate-reader.tex" 1781722241 20511 b79e54ba62851d1dd5e716347338e608 ""
+["pdflatex"] 1781728965.26005 "c:/Users/asiad/Desktop/license-plate-reader/latex/license-plate-reader.tex" "license-plate-reader.pdf" "license-plate-reader" 1781728968.61265 0
+  "c:/Users/asiad/Desktop/license-plate-reader/latex/license-plate-reader.tex" 1781728963 21000 d778beb97bde2538c48139af832ca9a8 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1740770123 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1740770123 2840 216e6e45ad352e2456e1149f28885bee ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1740768588 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -251,12 +251,14 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1740775179 5512713 1e2df2d1e914a8052c604db674da6db6 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1740775342 3352887 6a4f67cc9524e426880524feda0fadc4 ""
   "c:/texlive/2024/texmf.cnf" 1740775138 713 e69b156964470283e0530f5060668171 ""
-  "license-plate-reader.aux" 1781722245 5859 4d797d081fcb2b04e38010a5b61263a1 "pdflatex"
-  "license-plate-reader.nav" 1781722245 3600 a83c7e25f8fce4441c694af62513e1bf "pdflatex"
-  "license-plate-reader.out" 1781722245 1104 0a41d6aed9eff9e053b2007bb6cc0d3b "pdflatex"
-  "license-plate-reader.tex" 1781722241 20511 b79e54ba62851d1dd5e716347338e608 ""
-  "license-plate-reader.toc" 1781722245 494 2ad54bf1ba337023315c5ecfa8a1c401 "pdflatex"
+  "license-plate-reader.aux" 1781728968 5983 c9a6c4b499fca645063241778f929c5c "pdflatex"
+  "license-plate-reader.nav" 1781728968 3689 b297640adf300095c89ae0484ccb4649 "pdflatex"
+  "license-plate-reader.out" 1781728968 1104 0a41d6aed9eff9e053b2007bb6cc0d3b "pdflatex"
+  "license-plate-reader.tex" 1781728963 21000 d778beb97bde2538c48139af832ca9a8 ""
+  "license-plate-reader.toc" 1781728968 493 4d55bc71ca0036c54c2bfac094ca2012 "pdflatex"
   "pics/TODO-car-wo-label.jpeg" 1780066852 220588 27c806c199cec8649cbc3c2f44ac9d5a ""
+  "pics/syntatyki.png" 1781728448 153219 d93e24cae2094eb41deca7d4097d1eb5 ""
+  "pics/syntatyki2.png" 1781728429 566271 a7d5ae8ff47db764fc2678154e92b36e ""
   (generated)
   "license-plate-reader.aux"
   "license-plate-reader.log"

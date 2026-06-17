@@ -457,6 +457,8 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmss8.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmsso8.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmsso8.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmss9.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmtt9.tfm
@@ -468,8 +470,16 @@ INPUT ./pics/TODO-car-wo-label.jpeg
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmtt8.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmsso12.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
+INPUT ./pics/syntatyki.png
+INPUT ./pics/syntatyki.png
+INPUT ./pics/syntatyki.png
+INPUT ./pics/syntatyki.png
+INPUT ./pics/syntatyki.png
+INPUT ./pics/syntatyki2.png
+INPUT ./pics/syntatyki2.png
+INPUT ./pics/syntatyki2.png
+INPUT ./pics/syntatyki2.png
+INPUT ./pics/syntatyki2.png
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/rm-lmss9.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/lmmi9.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/lmsy9.tfm

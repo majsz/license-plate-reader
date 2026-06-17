@@ -196,95 +196,10 @@ pseudo-etykietowania (sekcja \emph{Opis metod}).
 W celu zmierzenia \textbf{jakości odczytywania numerów} posłużyliśmy się
 analizą na \textbf{próbce ręcznie oznaczonych tablic} (\emph{manual ground truth}).
 
-\scriptsize
-Dokładniejsze opisy danych przy opisie metody z nich korzystającej.
-
-\end{frame}
-
-%---------------------------------------------------------
-
-\begin{frame}{\textit{License Plate Detection Dataset (10,125 Images)}}
-
-\begin{columns}
-
-\column{0.60\textwidth}
-
-Zdjęcia pojazdów z oznaczonym położeniem tablic rejestracyjnych.
-
-\vspace{0.2cm}
-
-Dane są zapisane w formacie zgodnym z YOLO.
-Dla każdego obrazu istnieje odpowiadający mu plik tekstowy z etykietą.
-
-\vspace{0.2cm}
-
-\footnotesize
-Podział: \textbf{train} / \textbf{valid} (2048 obrazów) / \textbf{test} (1020 obrazów),
-jedna klasa: \texttt{License\_Plate}.
-
-\column{0.40\textwidth}
-
-\includegraphics[width=\textwidth]{pics/TODO-car-wo-label.jpeg}
-
-\vspace{0.2cm}
-
-\end{columns}
-
-\begin{center}
-\begin{tikzpicture}[
-    every node/.style={font=\scriptsize},
-    num/.style={font=\ttfamily\large},
-    def/.style={align=center, font=\scriptsize},
-    arrow/.style={-Latex, thin}
-]
-
-% Numbers in the example label
-\node[num] (class) at (0,0) {0};
-\node[num] (xc)    at (1.2,0) {0.512};
-\node[num] (yc)    at (2.8,0) {0.781};
-\node[num] (w)     at (4.4,0) {0.154};
-\node[num] (h)     at (6.0,0) {0.067};
-
-% Definitions alternating above and below
-\node[def, above=0.5cm of class] (classdef) {klasa obiektu};
-\node[def, below=0.5cm of xc]    (xcdef)    {\texttt{x\_center}\\środek w poziomie};
-\node[def, above=0.5cm of yc]    (ycdef)    {\texttt{y\_center}\\środek w pionie};
-\node[def, below=0.5cm of w]     (wdef)     {\texttt{width}\\szerokość ramki};
-\node[def, above=0.5cm of h]     (hdef)     {\texttt{height}\\wysokość ramki};
-
-% Vertical arrows
-\draw[arrow] (classdef) -- (class);
-\draw[arrow] (xc) -- (xcdef);
-\draw[arrow] (ycdef) -- (yc);
-\draw[arrow] (w) -- (wdef);
-\draw[arrow] (hdef) -- (h);
-
-\end{tikzpicture}
-\end{center}
-
-
-\scriptsize
-Wartości \texttt{x\_center}, \texttt{y\_center}, \texttt{width} i \texttt{height}
-są znormalizowane do rozmiaru obrazu, czyli mają wartości od 0 do 1.
-
-\end{frame}
-
-%---------------------------------------------------------
-
-\begin{frame}{\textit{License Plate Text Recognition Dataset}
-(N.~Yazdani)}
-
-
-
-zawiera tysiące prawdziwych cropów tablic z etykietami
-\textbf{tekstowymi} (bez bounding boxów znaków). Wykorzystany do
-pseudo-etykietowania.
-
 \vspace{0.4cm}
 
-\textbf{Etykiety znaków:} klasy \texttt{0--35} odpowiadające cyfrom \texttt{0--9}
-oraz literom \texttt{A--Z} (\texttt{CHAR\_CLASSES}).
-
+\scriptsize
+Dokładniejsze opisy danych przy opisie metody z nich korzystającej.
 
 \end{frame}
 
@@ -404,6 +319,75 @@ wagi startowe \texttt{yolo11n.pt}, \texttt{patience} = 10.
 
 %---------------------------------------------------------
 
+\begin{frame}{\textit{License Plate Detection Dataset (10,125 Images)}}
+
+\begin{columns}
+
+\column{0.60\textwidth}
+
+Zdjęcia pojazdów z oznaczonym położeniem tablic rejestracyjnych.
+
+\vspace{0.2cm}
+
+Dane są zapisane w formacie zgodnym z YOLO.
+Dla każdego obrazu istnieje odpowiadający mu plik tekstowy z etykietą.
+
+\vspace{0.2cm}
+
+\footnotesize
+Podział: \textbf{train} / \textbf{valid} (2048 obrazów) / \textbf{test} (1020 obrazów),
+jedna klasa: \texttt{License\_Plate}.
+
+\column{0.40\textwidth}
+
+\includegraphics[width=\textwidth]{pics/TODO-car-wo-label.jpeg}
+
+\vspace{0.2cm}
+
+\end{columns}
+
+\begin{center}
+\begin{tikzpicture}[
+    every node/.style={font=\scriptsize},
+    num/.style={font=\ttfamily\large},
+    def/.style={align=center, font=\scriptsize},
+    arrow/.style={-Latex, thin}
+]
+
+% Numbers in the example label
+\node[num] (class) at (0,0) {0};
+\node[num] (xc)    at (1.2,0) {0.512};
+\node[num] (yc)    at (2.8,0) {0.781};
+\node[num] (w)     at (4.4,0) {0.154};
+\node[num] (h)     at (6.0,0) {0.067};
+
+% Definitions alternating above and below
+\node[def, above=0.5cm of class] (classdef) {klasa obiektu};
+\node[def, below=0.5cm of xc]    (xcdef)    {\texttt{x\_center}\\środek w poziomie};
+\node[def, above=0.5cm of yc]    (ycdef)    {\texttt{y\_center}\\środek w pionie};
+\node[def, below=0.5cm of w]     (wdef)     {\texttt{width}\\szerokość ramki};
+\node[def, above=0.5cm of h]     (hdef)     {\texttt{height}\\wysokość ramki};
+
+% Vertical arrows
+\draw[arrow] (classdef) -- (class);
+\draw[arrow] (xc) -- (xcdef);
+\draw[arrow] (ycdef) -- (yc);
+\draw[arrow] (w) -- (wdef);
+\draw[arrow] (hdef) -- (h);
+
+\end{tikzpicture}
+\end{center}
+
+
+\scriptsize
+Wartości \texttt{x\_center}, \texttt{y\_center}, \texttt{width} i \texttt{height}
+są znormalizowane do rozmiaru obrazu, czyli mają wartości od 0 do 1.
+
+\end{frame}
+
+
+%---------------------------------------------------------
+
 \begin{frame}{Crop tablicy z marginesem}
 
 Po wykryciu tablicy przez model YOLO wycinany jest fragment obrazu odpowiadający przewidzianej ramce ograniczającej.
@@ -447,6 +431,27 @@ więc 36-klasowa detekcja uczona tylko na nich działa słabo. Rozwiązanie na k
 
 %---------------------------------------------------------
 
+\begin{frame}{\textit{License Plate Text Recognition Dataset}
+(N.~Yazdani)}
+
+
+
+zawiera tysiące prawdziwych cropów tablic z etykietami
+\textbf{tekstowymi} (bez bounding boxów znaków). Wykorzystany do
+pseudo-etykietowania.
+
+\vspace{0.4cm}
+
+\textbf{Etykiety znaków:} klasy \texttt{0--35} odpowiadające cyfrom \texttt{0--9}
+oraz literom \texttt{A--Z} (\texttt{CHAR\_CLASSES}).
+
+
+\end{frame}
+
+
+
+%---------------------------------------------------------
+
 \begin{frame}{Generator syntetycznych tablic}
 
 Aby zwiększyć liczbę danych treningowych \textbf{bez ręcznego oznaczania},
@@ -457,18 +462,42 @@ zbudowano generator syntetycznych tablic.
     współrzędne każdego znaku $\rightarrow$ bounding boxy powstają automatycznie.
     \item Kolejność operacji:
     \begin{enumerate}
-        \footnotesize
         \item render czystej tablicy + boxy znaków,
+        
         \item transformacje \textbf{geometryczne} (perspektywa, rotacja) -- boxy
         przekształcane tą samą macierzą,
+    
         \item degradacje \textbf{fotometryczne} (blur, szum, niska rozdzielczość, JPEG)
-        -- nie zmieniają geometrii.
+        -- nie zmieniające geometrii.
     \end{enumerate}
-    \item Wygenerowano \textbf{12 000} obrazów (\texttt{.jpg} + etykiety YOLO),
-    w tym \textbf{$\sim$30\% tablic dwurzędowych}.
-    \item Syntetyki trafiają \textbf{tylko do zbioru treningowego} -- val/test pozostają
-    w 100\% prawdziwe.
+
 \end{itemize}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{pics/syntatyki.png}
+    \vspace{0.1cm}
+    {\scriptsize Wizualizacja poziomów degradacji wygenerowanych tablic rejestracyjnych}
+\end{figure}
+
+\end{frame}
+
+
+
+\begin{frame}{Generator syntetycznych tablic}
+
+    Wygenerowano \textbf{12 000} obrazów (\texttt{.jpg} + etykiety YOLO),
+    w tym \textbf{$\sim$30\% tablic dwurzędowych}.
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=\textwidth]{pics/syntatyki2.png}
+        \vspace{0.1cm}
+        {\scriptsize Porównanie syntetyków z prawdziwymi cropami}
+    \end{figure}
+
+    Syntetyki trafiają \textbf{tylko do zbioru treningowego} -- val/test pozostają
+    w 100\% prawdziwe.
 
 \end{frame}
 
