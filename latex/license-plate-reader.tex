@@ -176,27 +176,28 @@ Zbudowanie systemu, który z fotografii pojazdu zwraca ciąg znaków odpowiadaj�
 %---------------------------------------------------------
 
 
-
-
-%---------------------------------------------------------
-
 \begin{frame}{Opis danych}
 
 \textbf{Pierwszy zbiór danych} -- \textit{License Plate Detection Dataset (10,125 Images)} zawiera adnotacje lokalizacji tablic na zdjęciu, które pozwalają na \textbf{detekcję} tablicy na obrazie. Nie zawiera jednak oznaczenia faktycznych numerów tablic.
 
-\vspace{0.4cm}
+\vspace{0.2cm}
 
-\textbf{Drugi zbiór danych} -- \textit{License Plate Text Recognition Dataset}
-(N.~Yazdani) -- zawiera tysiące prawdziwych cropów tablic z etykietami
-\textbf{tekstowymi} (bez bounding boxów znaków). Wykorzystany do
-pseudo-etykietowania (sekcja \emph{Opis metod}).
+\textbf{Drugi zbiór danych} -- \textit{License Plate Characters - Detection OCR} -- zawiera ok. 200 prawdziwych cropów tablic z etykietami lokalizacyjnymi dla wszystkich zanków. Wykorzystany jako podstawa do klasyfikowania.
 
-\vspace{0.4cm}
+\vspace{0.2cm}
 
-W celu zmierzenia \textbf{jakości odczytywania numerów} posłużyliśmy się
+Dodatkowo wygenerowałyśmy \textbf{syntetyczny zbiór cropów tablic} poddanych przekształceniom geometrycznym i zniekształceniom.
+
+\vspace{0.2cm}
+
+\textbf{Trzeci zbiór danych} -- \textit{License Plate Text Recognition Dataset} -- zawiera tysiące prawdziwych cropów tablic z etykietami \textbf{tekstowymi} (bez bounding boxów znaków). Wykorzystany do pseudo-etykietowania.
+
+\vspace{0.2cm}
+
+W celu zmierzenia \textbf{jakości odczytywania numerów} posłużyłyśmy się
 analizą na \textbf{próbce ręcznie oznaczonych tablic} (\emph{manual ground truth}).
 
-\vspace{0.4cm}
+\vspace{0.2cm}
 
 \scriptsize
 Dokładniejsze opisy danych przy opisie metody z nich korzystającej.
@@ -429,26 +430,30 @@ więc 36-klasowa detekcja uczona tylko na nich działa słabo. Rozwiązanie na k
 
 \end{frame}
 
-%---------------------------------------------------------
 
-\begin{frame}{\textit{License Plate Text Recognition Dataset}
-(N.~Yazdani)}
+\begin{frame}{\textit{License Plate Characters - Detection OCR} (F.~Pettini)}
 
 
+Zawiera $\sim$200 tablic rejestracyjnych a na nich $\sim$2000 oznaczonych znaków.
 
-zawiera tysiące prawdziwych cropów tablic z etykietami
-\textbf{tekstowymi} (bez bounding boxów znaków). Wykorzystany do
-pseudo-etykietowania.
+Wykorzystany jako podstawa do ucznia odczytywania znaków oraz jako wyłączny zbiór walidacyjny i testowy.
 
 \vspace{0.4cm}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.4\textwidth]{pics/dataset2.png}
+
+    \vspace{0.1cm}
+    {\scriptsize Przykładowa tablica rejestracyjna z datasetu}
+\end{figure}
+
 
 \textbf{Etykiety znaków:} klasy \texttt{0--35} odpowiadające cyfrom \texttt{0--9}
 oraz literom \texttt{A--Z} (\texttt{CHAR\_CLASSES}).
 
 
 \end{frame}
-
-
 
 %---------------------------------------------------------
 
@@ -470,7 +475,6 @@ zbudowano generator syntetycznych tablic.
         \item degradacje \textbf{fotometryczne} (blur, szum, niska rozdzielczość, JPEG)
         -- nie zmieniające geometrii.
     \end{enumerate}
-
 \end{itemize}
 
 \begin{figure}
@@ -486,17 +490,24 @@ zbudowano generator syntetycznych tablic.
 
 \begin{frame}{Generator syntetycznych tablic}
 
-    Wygenerowano \textbf{12 000} obrazów (\texttt{.jpg} + etykiety YOLO),
-    w tym \textbf{$\sim$30\% tablic dwurzędowych}.
+    Wygenerowano 12 000 obrazów (+ etykiety YOLO),
+    w tym $\sim$30\% tablic dwurzędowych.
 
     \begin{figure}
         \centering
-        \includegraphics[width=\textwidth]{pics/syntatyki2.png}
-        \vspace{0.1cm}
+        \includegraphics[width=0.8\textwidth]{pics/syntatyki2.png}
+
         {\scriptsize Porównanie syntetyków z prawdziwymi cropami}
     \end{figure}
 
-    Syntetyki trafiają \textbf{tylko do zbioru treningowego} -- val/test pozostają
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.8\textwidth]{pics/syntatyki3.png}
+
+        {\scriptsize Syntetyki z zaznaczonymi bounding boxami cyfr}
+    \end{figure}
+
+    \footnotesize Syntetyki trafiają tylko do zbioru treningowego -- val/test pozostają
     w 100\% prawdziwe.
 
 \end{frame}
@@ -505,10 +516,10 @@ zbudowano generator syntetycznych tablic.
 
 \begin{frame}{Pseudo-etykietowanie (self-training)}
 
-Drugie źródło prawdziwych danych treningowych -- \textbf{za darmo}.
+Trzecie źródło danych treningowych -- \textbf{za darmo}.
 
 \begin{itemize}
-    \item Drugi dataset ma tysiące prawdziwych cropów z etykietami \textbf{tekstowymi},
+    \item Trzeci dataset ma tysiące cropów z etykietami \textbf{tekstowymi},
     ale bez boxów znaków.
     \item \textbf{Trik:} przepuszczamy te cropy przez świeżo wytrenowany Char-YOLO.
     Jeśli odczytany ciąg \textbf{dokładnie zgadza się} z etykietą tekstową,
@@ -517,12 +528,45 @@ Drugie źródło prawdziwych danych treningowych -- \textbf{za darmo}.
     \item Zgodność tekstu działa jak \textbf{automatyczny filtr jakości}
     (zła detekcja = zły tekst = odrzut). Próg pewności: \texttt{conf} = 0{,}50.
     \item Następnie dotrenowanie modelu o pseudo-etykiety
-    (syntetyki + 146 prawdziwych + pseudo-etykietowane prawdziwe).
+    
+    (a więc syntetyki + 146 prawdziwych + pseudo-etykietowane).
 \end{itemize}
 
 \end{frame}
 
+%---------------------------------------------------------
 
+\begin{frame}{\textit{License Plate Text Recognition Dataset}
+(N.~Yazdani)}
+
+\begin{columns}[T,onlytextwidth]
+
+% LEWA KOLUMNA
+\column{0.6\textwidth}
+
+Zawiera tysiące cropów tablic z etykietami \textbf{tekstowymi} (bez bounding boxów znaków).
+
+\vspace{0.4cm}
+
+\textbf{Etykiety znaków:} klasy \texttt{0--35} odpowiadające cyfrom \texttt{0--9}
+oraz literom \texttt{A--Z} (\texttt{CHAR\_CLASSES}).
+
+% KOLUMNA
+\column{0.4\textwidth}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.7\textwidth]{pics/dataset3.jpg}
+
+    \vspace{0.5cm}
+    \texttt{\huge G59430}
+
+    \vspace{0.1cm}
+    {\scriptsize Przykładowa tablica rejestracyjna i jej etykieta}
+\end{figure}
+
+\end{columns}
+
+\end{frame}
 
 
 %---------------------------------------------------------

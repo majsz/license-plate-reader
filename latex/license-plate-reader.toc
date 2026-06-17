@@ -5,6 +5,6 @@
 \beamer@sectionintoc {4}{Literatura}{6}{0}{4}
 \beamer@sectionintoc {5}{Opis danych}{7}{0}{5}
 \beamer@sectionintoc {6}{Opis metod}{8}{0}{6}
-\beamer@sectionintoc {7}{Opis wdrożenia metod / modelu}{17}{0}{7}
-\beamer@sectionintoc {8}{Wyniki}{18}{0}{8}
-\beamer@sectionintoc {9}{Wnioski}{21}{0}{9}
+\beamer@sectionintoc {7}{Opis wdrożenia metod / modelu}{18}{0}{7}
+\beamer@sectionintoc {8}{Wyniki}{19}{0}{8}
+\beamer@sectionintoc {9}{Wnioski}{22}{0}{9}
