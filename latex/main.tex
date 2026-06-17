@@ -6,7 +6,7 @@
 \usepackage{lmodern}
 
 \usepackage{tikz}
-\usetikzlibrary{positioning, arrows.meta}
+\usetikzlibrary{positioning, arrows.meta, fit}
 
 
 \usetheme{Madrid}
@@ -214,16 +214,17 @@ Dataset \textit{License Plate Detection Dataset (10,125 Images)}  zawiera adnota
 
 %---------------------------------------------------------
 
+
 \section{Opis metod}
 
 \begin{frame}{Opis metod}
-    
-\end{frame}
 
-\section{Opis użytych metod}
+\begin{columns}[T,onlytextwidth]
 
-\begin{frame}{Opis użytych metod}
+% LEWA KOLUMNA
+\column{0.52\textwidth}
 
+\small
 W projekcie zastosowano podejście dwustopniowe, ponieważ problem odczytywania tablicy rejestracyjnej składa się z dwóch zadań:
 
 \begin{itemize}
@@ -231,14 +232,79 @@ W projekcie zastosowano podejście dwustopniowe, ponieważ problem odczytywania 
     \item \textbf{rozpoznania tekstu} -- odczytania znaków z wyciętego fragmentu tablicy.
 \end{itemize}
 
-\begin{center}
-\texttt{obraz} $\rightarrow$ \texttt{YOLO11n} $\rightarrow$ \texttt{crop tablicy} $\rightarrow$ \texttt{OCR} $\rightarrow$ \texttt{tekst}
-\end{center}
+% PRAWA KOLUMNA
+\column{0.46\textwidth}
+
+\centering
+
+\resizebox{0.9\textwidth}{!}{
+\begin{tikzpicture}[
+    node distance=0.35cm,
+    box/.style={
+        rectangle,
+        rounded corners,
+        draw=blue!60,
+        fill=blue!8,
+        thick,
+        minimum width=3.8cm,
+        minimum height=0.65cm,
+        align=center,
+        font=\scriptsize
+    },
+    arrow/.style={
+        -Latex,
+        thick,
+        draw=blue!70
+    },
+    stagebox/.style={
+        rectangle,
+        rounded corners,
+        draw=gray!70,
+        dashed,
+        thick,
+        inner sep=0.18cm
+    },
+    stagelabel/.style={
+        font=\scriptsize\bfseries,
+        rotate=90,
+        text=gray!80
+    }
+]
+
+\node[box] (image) {Obraz pojazdu};
+\node[box, below=of image] (plateyolo) {YOLO -- detekcja tablicy};
+\node[box, below=of plateyolo] (crop) {Crop tablicy};
+\node[box, below=of crop] (charyolo) {YOLO -- klasyfikacja znaków};
+\node[box, below=of charyolo] (filter) {Filtrowanie detekcji};
+\node[box, below=of filter] (sort) {Sortowanie znaków};
+\node[box, below=of sort] (text) {Odczytany tekst};
+
+\draw[arrow] (image) -- (plateyolo);
+\draw[arrow] (plateyolo) -- (crop);
+\draw[arrow] (crop) -- (charyolo);
+\draw[arrow] (charyolo) -- (filter);
+\draw[arrow] (filter) -- (sort);
+\draw[arrow] (sort) -- (text);
+
+% Przerywane ramki etapów
+\node[stagebox, fit=(image)(plateyolo)(crop)] (stage1) {};
+\node[stagebox, fit=(charyolo)(filter)(sort)(text)] (stage2) {};
+
+% Pionowe etykiety etapów
+\node[stagelabel, right=0.15cm of stage1] {Etap 1};
+\node[stagelabel, right=0.15cm of stage2] {Etap 2};
+
+\end{tikzpicture}
+}
+
+\end{columns}
 
 \end{frame}
 
+
+
 %---------------------------------------------------------
-\begin{frame}{Detekcja tablicy -- YOLO11n}
+\begin{frame}{YOLO11n}
 
 Do wykrywania położenia tablicy rejestracyjnej wykorzystano model \texttt{YOLO11n} z biblioteki Ultralytics.
 

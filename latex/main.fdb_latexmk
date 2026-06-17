@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1780076155.13648 "c:/Users/asiad/Desktop/license-plate-reader/latex/main.tex" "main.pdf" "main" 1780076158.33943 0
-  "c:/Users/asiad/Desktop/license-plate-reader/latex/main.tex" 1780076151 14398 1b17dfb2864bb32c1126c7cd72b2e16a ""
+["pdflatex"] 1781636163.37 "c:/Users/asiad/Desktop/license-plate-reader/latex/main.tex" "main.pdf" "main" 1781636167.27368 0
+  "c:/Users/asiad/Desktop/license-plate-reader/latex/main.tex" 1781636162 15911 68dd96e20c11d06e347aa2300c6a9440 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1740770123 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1740770123 2840 216e6e45ad352e2456e1149f28885bee ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc" 1740770124 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -81,6 +81,7 @@
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex" 1740771238 35249 abd4adf948f960299a4b3d27c5dddf46 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex" 1740771238 22012 81b34a0aa8fa1a6158cc6220b00e4f10 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex" 1740771238 8893 e851de2175338fdf7c17f3e091d94618 ""
+  "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex" 1740771238 3626 2d87dc681257fa32d07a8b3934b10f88 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex" 1740771238 3937 3f208572dd82c71103831da976d74f1a ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex" 1740771238 11518 738408f795261b70ce8dd47459171309 ""
   "c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex" 1740771238 186782 af500404a9edec4d362912fe762ded92 ""
@@ -238,11 +239,11 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1740775179 5512713 1e2df2d1e914a8052c604db674da6db6 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1740775342 3352887 6a4f67cc9524e426880524feda0fadc4 ""
   "c:/texlive/2024/texmf.cnf" 1740775138 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1780076158 6888 6f898a3f6161e3bf069513a7c6019938 "pdflatex"
-  "main.nav" 1780076158 4251 804c1c7e9a666112ea9b51c66de08da9 "pdflatex"
-  "main.out" 1780076158 1453 12205ace3e022eeb68bce29a8bd0120b "pdflatex"
-  "main.tex" 1780076151 14398 1b17dfb2864bb32c1126c7cd72b2e16a ""
-  "main.toc" 1780076158 620 0d702a54f930570f522586b297ce12ba "pdflatex"
+  "main.aux" 1781636166 6455 33d7815c96bd3cdb4cad780c9af29e79 "pdflatex"
+  "main.nav" 1781636166 3984 617eeb05171c4ef0cae8aa51e70c6924 "pdflatex"
+  "main.out" 1781636166 1309 9d01df924e2a0b77a804949268c385fb "pdflatex"
+  "main.tex" 1781636162 15911 68dd96e20c11d06e347aa2300c6a9440 ""
+  "main.toc" 1781636166 562 95987ccdb2c980c7af0b16d01273704a "pdflatex"
   "pics/TODO-car-wo-label.jpeg" 1780066852 220588 27c806c199cec8649cbc3c2f44ac9d5a ""
   (generated)
   "main.aux"
