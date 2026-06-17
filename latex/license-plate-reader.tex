@@ -341,7 +341,7 @@ jedna klasa: \texttt{License\_Plate}.
 
 \column{0.40\textwidth}
 
-\includegraphics[width=\textwidth]{pics/TODO-car-wo-label.jpeg}
+\includegraphics[width=\textwidth]{pics/dataset1.jpg}
 
 \vspace{0.2cm}
 
@@ -547,7 +547,7 @@ Trzecie źródło danych treningowych -- \textbf{za darmo}.
     (zła detekcja = zły tekst = odrzut). Próg pewności: \texttt{conf} = 0{,}50.
     \item Następnie dotrenowanie modelu o pseudo-etykiety
     
-    (a więc syntetyki + 146 prawdziwych + pseudo-etykietowane).
+    (a więc syntetyki + 200 prawdziwych + pseudo-etykietowane).
 \end{itemize}
 
 \end{frame}
@@ -566,8 +566,7 @@ Zawiera tysiące cropów tablic z etykietami \textbf{tekstowymi} (bez bounding b
 
 \vspace{0.4cm}
 
-\textbf{Etykiety znaków:} klasy \texttt{0--35} odpowiadające cyfrom \texttt{0--9}
-oraz literom \texttt{A--Z} (\texttt{CHAR\_CLASSES}).
+\textbf{Etykiety znaków:} ciąg tekstowy całej tablicy.
 
 % KOLUMNA
 \column{0.4\textwidth}
@@ -738,16 +737,6 @@ CER (Character Error Rate)          & 0{,}147 \\
     danych, a zgodność tekstu zadziałała jak automatyczny filtr jakości.
     \item Wąskim gardłem pozostaje \textbf{etap odczytu znaków} (61\% exact match):
     pojedyncze pomyłki na trudnych/krzywych tablicach obniżają dokładność całej tablicy.
-\end{itemize}
-
-\vspace{0.3cm}
-
-\textbf{Kierunki dalszych prac:}
-\begin{itemize}
-    \footnotesize
-    \item więcej i bardziej realistycznych syntetyków (czcionki, tła, degradacje),
-    \item lepsza rektyfikacja silnie przekrzywionych tablic,
-    \item walidacja formatu numeru (reguły rejestracji) jako postprocessing.
 \end{itemize}
 
 \end{frame}

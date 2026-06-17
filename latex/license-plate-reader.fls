@@ -462,11 +462,11 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmss9.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmtt9.tfm
-INPUT ./pics/TODO-car-wo-label.jpeg
-INPUT ./pics/TODO-car-wo-label.jpeg
-INPUT ./pics/TODO-car-wo-label.jpeg
-INPUT ./pics/TODO-car-wo-label.jpeg
-INPUT ./pics/TODO-car-wo-label.jpeg
+INPUT ./pics/dataset1.jpg
+INPUT ./pics/dataset1.jpg
+INPUT ./pics/dataset1.jpg
+INPUT ./pics/dataset1.jpg
+INPUT ./pics/dataset1.jpg
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmtt8.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/lm/ec-lmsso12.tfm

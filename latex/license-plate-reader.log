@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.28)  18 JUN 2026 00:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.28)  18 JUN 2026 00:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -906,18 +906,22 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
 [9
 
 ]
-<pics/TODO-car-wo-label.jpeg, id=344, 1027.84pt x 770.88pt>
-File: pics/TODO-car-wo-label.jpeg Graphic file (type jpg)
-<use pics/TODO-car-wo-label.jpeg>
-Package pdftex.def Info: pics/TODO-car-wo-label.jpeg  used on input line 387.
-(pdftex.def)             Requested size: 136.97203pt x 102.72336pt.
+<pics/dataset1.jpg, id=344, 1014.79124pt x 897.3525pt>
+File: pics/dataset1.jpg Graphic file (type jpg)
+<use pics/dataset1.jpg>
+Package pdftex.def Info: pics/dataset1.jpg  used on input line 387.
+(pdftex.def)             Requested size: 136.97203pt x 121.10997pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 387.
+
+Overfull \vbox (18.27953pt too high) detected at line 387
+ []
+
 
 
 [10
 
- <./pics/TODO-car-wo-label.jpeg>]
+ <./pics/dataset1.jpg>]
 <pics/cropy1.png, id=375, 335.45325pt x 269.808pt>
 File: pics/cropy1.png Graphic file (type png)
 <use pics/cropy1.png>
@@ -984,7 +988,7 @@ Package pdftex.def Info: pics/syntatyki3.png  used on input line 531.
 <pics/dataset3.jpg, id=553, 83.8332pt x 101.178pt>
 File: pics/dataset3.jpg Graphic file (type jpg)
 <use pics/dataset3.jpg>
-Package pdftex.def Info: pics/dataset3.jpg  used on input line 587.
+Package pdftex.def Info: pics/dataset3.jpg  used on input line 586.
 (pdftex.def)             Requested size: 95.87999pt x 115.72388pt.
 
 
@@ -992,9 +996,9 @@ Package pdftex.def Info: pics/dataset3.jpg  used on input line 587.
 
  <./pics/dataset3.jpg>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 618.
+(Font)              <9> on input line 617.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 618.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 617.
 
 
 [18
@@ -1039,14 +1043,14 @@ Package rerunfilecheck Info: File `license-plate-reader.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  27189 strings out of 473201
- 536797 string characters out of 5720299
- 911519 words of memory out of 5000000
+ 536727 string characters out of 5720299
+ 911520 words of memory out of 5000000
  49815 multiletter control sequences out of 15000+600000
  647380 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,445b,1103s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on license-plate-reader.pdf (23 pages, 3577323 bytes).
+Output written on license-plate-reader.pdf (23 pages, 3518858 bytes).
 PDF statistics:
  819 PDF objects out of 1000 (max. 8388607)
  705 compressed objects within 8 object streams
