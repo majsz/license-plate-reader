@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.28)  17 JUN 2026 23:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.28)  18 JUN 2026 00:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -918,43 +918,59 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 [10
 
  <./pics/TODO-car-wo-label.jpeg>]
+<pics/cropy1.png, id=375, 335.45325pt x 269.808pt>
+File: pics/cropy1.png Graphic file (type png)
+<use pics/cropy1.png>
+Package pdftex.def Info: pics/cropy1.png  used on input line 428.
+(pdftex.def)             Requested size: 102.73163pt x 82.62685pt.
+<pics/cropy2.png, id=377, 170.43675pt x 166.82326pt>
+File: pics/cropy2.png Graphic file (type png)
+<use pics/cropy2.png>
+Package pdftex.def Info: pics/cropy2.png  used on input line 428.
+(pdftex.def)             Requested size: 102.73163pt x 100.55545pt.
+
 
 [11
 
-]
+ <./pics/cropy1.png> <./pics/cropy2.png>]
 
 [12
 
 ]
-<pics/dataset2.png, id=430, 284.06125pt x 73.27374pt>
+<pics/dataset2.png, id=435, 1194.4625pt x 640.3925pt>
 File: pics/dataset2.png Graphic file (type png)
 <use pics/dataset2.png>
-Package pdftex.def Info: pics/dataset2.png  used on input line 456.
-(pdftex.def)             Requested size: 136.97203pt x 35.3331pt.
+Package pdftex.def Info: pics/dataset2.png  used on input line 474.
+(pdftex.def)             Requested size: 167.79518pt x 89.95724pt.
+<pics/dataset2-2.png, id=436, 430.7292pt x 221.8689pt>
+File: pics/dataset2-2.png Graphic file (type png)
+<use pics/dataset2-2.png>
+Package pdftex.def Info: pics/dataset2-2.png  used on input line 474.
+(pdftex.def)             Requested size: 171.21765pt x 88.19415pt.
 
 
 [13
 
- <./pics/dataset2.png (PNG copy)>]
-<pics/syntatyki.png, id=459, 1076.1003pt x 127.1952pt>
+ <./pics/dataset2.png (PNG copy)> <./pics/dataset2-2.png>]
+<pics/syntatyki.png, id=466, 1076.1003pt x 127.1952pt>
 File: pics/syntatyki.png Graphic file (type png)
 <use pics/syntatyki.png>
-Package pdftex.def Info: pics/syntatyki.png  used on input line 487.
+Package pdftex.def Info: pics/syntatyki.png  used on input line 505.
 (pdftex.def)             Requested size: 342.43532pt x 40.47427pt.
 
 
 [14
 
  <./pics/syntatyki.png>]
-<pics/syntatyki2.png, id=489, 1292.9103pt x 317.988pt>
+<pics/syntatyki2.png, id=495, 1292.9103pt x 317.988pt>
 File: pics/syntatyki2.png Graphic file (type png)
 <use pics/syntatyki2.png>
-Package pdftex.def Info: pics/syntatyki2.png  used on input line 513.
+Package pdftex.def Info: pics/syntatyki2.png  used on input line 531.
 (pdftex.def)             Requested size: 273.9493pt x 67.37625pt.
-<pics/syntatyki3.png, id=490, 1292.9103pt x 300.6432pt>
+<pics/syntatyki3.png, id=496, 1292.9103pt x 300.6432pt>
 File: pics/syntatyki3.png Graphic file (type png)
 <use pics/syntatyki3.png>
-Package pdftex.def Info: pics/syntatyki3.png  used on input line 513.
+Package pdftex.def Info: pics/syntatyki3.png  used on input line 531.
 (pdftex.def)             Requested size: 273.9493pt x 63.70119pt.
 
 
@@ -965,10 +981,10 @@ Package pdftex.def Info: pics/syntatyki3.png  used on input line 513.
 [16
 
 ]
-<pics/dataset3.jpg, id=547, 83.8332pt x 101.178pt>
+<pics/dataset3.jpg, id=553, 83.8332pt x 101.178pt>
 File: pics/dataset3.jpg Graphic file (type jpg)
 <use pics/dataset3.jpg>
-Package pdftex.def Info: pics/dataset3.jpg  used on input line 569.
+Package pdftex.def Info: pics/dataset3.jpg  used on input line 587.
 (pdftex.def)             Requested size: 95.87999pt x 115.72388pt.
 
 
@@ -976,9 +992,9 @@ Package pdftex.def Info: pics/dataset3.jpg  used on input line 569.
 
  <./pics/dataset3.jpg>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 600.
+(Font)              <9> on input line 618.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 600.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 618.
 
 
 [18
@@ -1022,18 +1038,18 @@ Package rerunfilecheck Info: File `license-plate-reader.out' has not changed.
 (rerunfilecheck)             Checksum: 0A41D6AED9EFF9E053B2007BB6CC0D3B;1104.
  ) 
 Here is how much of TeX's memory you used:
- 27168 strings out of 473201
- 536310 string characters out of 5720299
- 911521 words of memory out of 5000000
- 49794 multiletter control sequences out of 15000+600000
+ 27189 strings out of 473201
+ 536797 string characters out of 5720299
+ 911519 words of memory out of 5000000
+ 49815 multiletter control sequences out of 15000+600000
  647380 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,445b,1103s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on license-plate-reader.pdf (23 pages, 2040237 bytes).
+Output written on license-plate-reader.pdf (23 pages, 3577323 bytes).
 PDF statistics:
- 813 PDF objects out of 1000 (max. 8388607)
+ 819 PDF objects out of 1000 (max. 8388607)
  705 compressed objects within 8 object streams
  56 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
 

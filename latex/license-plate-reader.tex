@@ -302,7 +302,7 @@ W projekcie zastosowano podejście dwustopniowe, ponieważ problem odczytywania 
 Do wykrywania położenia tablicy rejestracyjnej wykorzystano model \texttt{YOLO11n} z biblioteki Ultralytics.
 
 \begin{itemize}
-    \item YOLO jest jednofazowym (one-stage) modelem detekcji obiektów.
+    \item YOLO jest jednofazowym modelem detekcji obiektów.
     \item Model uczony był detekcji jednej klasy: \texttt{License\_Plate}.
     \item Zwraca ramki ograniczające (\textit{bounding box}) oraz poziom pewności
     detekcji (\textit{confidence score}).
@@ -326,7 +326,7 @@ wagi startowe \texttt{yolo11n.pt}, \texttt{patience} = 10.
 
 \column{0.60\textwidth}
 
-Zdjęcia pojazdów z oznaczonym położeniem tablic rejestracyjnych.
+Zawiera zdjęcia pojazdów z oznaczonym położeniem tablic rejestracyjnych.
 
 \vspace{0.2cm}
 
@@ -391,6 +391,10 @@ są znormalizowane do rozmiaru obrazu, czyli mają wartości od 0 do 1.
 
 \begin{frame}{Crop tablicy z marginesem}
 
+\begin{columns}
+
+\column{0.7\textwidth}
+
 Po wykryciu tablicy przez model YOLO wycinany jest fragment obrazu odpowiadający przewidzianej ramce ograniczającej.
 
 \begin{itemize}
@@ -403,6 +407,23 @@ Po wykryciu tablicy przez model YOLO wycinany jest fragment obrazu odpowiadając
     \item Odrzucono wcześniejszą rektyfikację konturową (perspektywiczną) -- psuła
     dobre cropy i nie prostowała krzywych tablic.
 \end{itemize}
+
+
+\column{0.3\textwidth}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{pics/cropy1.png}
+
+    \vspace{0.1cm}
+    \centering
+    \includegraphics[width=\textwidth]{pics/cropy2.png}
+
+    {\scriptsize Przykładowe cropy ze zwiększonym z marginesem}
+\end{figure}
+
+
+\end{columns}
 
 \end{frame}
 
@@ -422,12 +443,6 @@ Drugi model wykrywa i klasyfikuje pojedyncze znaki na wyciętej tablicy.
     \item Obsługa tablic \textbf{dwurzędowych}: górny wiersz $\rightarrow$ dolny wiersz.
 \end{itemize}
 
-\vspace{0.2cm}
-
-\footnotesize
-\textbf{Problem:} dataset prawdziwych znaków jest mały (ok.\ 146 obrazów),
-więc 36-klasowa detekcja uczona tylko na nich działa słabo. Rozwiązanie na kolejnych slajdach.
-
 \end{frame}
 
 
@@ -438,20 +453,23 @@ Zawiera $\sim$200 tablic rejestracyjnych a na nich $\sim$2000 oznaczonych znakó
 
 Wykorzystany jako podstawa do ucznia odczytywania znaków oraz jako wyłączny zbiór walidacyjny i testowy.
 
-\vspace{0.4cm}
-
 \begin{figure}
     \centering
-    \includegraphics[width=0.4\textwidth]{pics/dataset2.png}
+    \includegraphics[width=0.49\textwidth]{pics/dataset2.png}
+    \includegraphics[width=0.5\textwidth]{pics/dataset2-2.png}
 
     \vspace{0.1cm}
-    {\scriptsize Przykładowa tablica rejestracyjna z datasetu}
+    {\scriptsize Przykładowa tablica rejestracyjna z datasetu i tablica z wizualizacją oznaczeń znaków na tablicy (z końcowych wyników, umieszczona w celu zobrazowania etykiet datasetu)}
 \end{figure}
 
 
 \textbf{Etykiety znaków:} klasy \texttt{0--35} odpowiadające cyfrom \texttt{0--9}
 oraz literom \texttt{A--Z} (\texttt{CHAR\_CLASSES}).
 
+\vspace{0.2cm}
+
+\footnotesize
+\textbf{Problem:} dataset prawdziwych znaków jest mały, więc 36-klasowa detekcja uczona tylko na nich działa słabo. 
 
 \end{frame}
 
