@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1781774275.38481 "c:/Users/asiad/Desktop/license-plate-reader/latex/license-plate-reader.tex" "license-plate-reader.pdf" "license-plate-reader" 1781774281.77524 0
-  "c:/Users/asiad/Desktop/license-plate-reader/latex/license-plate-reader.tex" 1781774266 24455 da9917a85da0e23c6936b763661bb4a1 ""
+["pdflatex"] 1781774895.14773 "c:/Users/asiad/Desktop/license-plate-reader/latex/license-plate-reader.tex" "license-plate-reader.pdf" "license-plate-reader" 1781774902.33397 0
+  "c:/Users/asiad/Desktop/license-plate-reader/latex/license-plate-reader.tex" 1781774804 24455 df035ad11d190c3aedc3d986e8d9089a ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1740770123 2375 baa924870cfb487815765f9094cf3728 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1740770123 2840 216e6e45ad352e2456e1149f28885bee ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1740768588 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -249,11 +249,11 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1740775179 5512713 1e2df2d1e914a8052c604db674da6db6 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1740775342 3352887 6a4f67cc9524e426880524feda0fadc4 ""
   "c:/texlive/2024/texmf.cnf" 1740775138 713 e69b156964470283e0530f5060668171 ""
-  "license-plate-reader.aux" 1781774281 6880 600b2a797ae03e7002b6f8a9832d4715 "pdflatex"
-  "license-plate-reader.nav" 1781774281 4334 e2e67b7a1829d3011c79666fa6799eb5 "pdflatex"
-  "license-plate-reader.out" 1781774281 1104 0a41d6aed9eff9e053b2007bb6cc0d3b "pdflatex"
-  "license-plate-reader.tex" 1781774266 24455 da9917a85da0e23c6936b763661bb4a1 ""
-  "license-plate-reader.toc" 1781774281 493 29e94a220fa853158c44f6cff65fbe27 "pdflatex"
+  "license-plate-reader.aux" 1781774901 6880 600b2a797ae03e7002b6f8a9832d4715 "pdflatex"
+  "license-plate-reader.nav" 1781774901 4334 e2e67b7a1829d3011c79666fa6799eb5 "pdflatex"
+  "license-plate-reader.out" 1781774901 1104 0a41d6aed9eff9e053b2007bb6cc0d3b "pdflatex"
+  "license-plate-reader.tex" 1781774804 24455 df035ad11d190c3aedc3d986e8d9089a ""
+  "license-plate-reader.toc" 1781774901 493 29e94a220fa853158c44f6cff65fbe27 "pdflatex"
   "pics/confusion_matrix.png" 1781773865 114537 b4fd67eba73fb24a6066467bbfef6070 ""
   "pics/confusion_matrix1.png" 1781773340 108863 fff351eb08a44dd774fe5aa785ca3ada ""
   "pics/confusion_matrix_normalized.png" 1781773946 119401 50b948a3a0228239db2a4c5c72faa645 ""
