@@ -348,11 +348,10 @@ Dla każdego obrazu istnieje odpowiadający mu plik tekstowy z etykietą.
 Podział: \textbf{train} / \textbf{valid} (2048 obrazów) / \textbf{test} (1020 obrazów),
 jedna klasa: \texttt{License\_Plate}.
 
-\column{0.40\textwidth}
+\column{0.36\textwidth}
 
 \includegraphics[width=\textwidth]{pics/dataset1.jpg}
 
-\vspace{0.2cm}
 
 \end{columns}
 
@@ -684,6 +683,25 @@ Testowy     & 0{,}990 & 0{,}949 & 0{,}972 & 0{,}692 \\
 
 \end{frame}
 
+
+
+\begin{frame}{Wyniki -- detekcja tablicy (YOLO11n)}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{pics/results1-krzywe.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Wyniki -- detekcja tablicy (YOLO11n)}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.72\textwidth]{pics/confusion_matrix1.png}
+\end{figure}
+\end{frame}
+
+
 %---------------------------------------------------------
 
 \begin{frame}{Wyniki -- detekcja znaków (Char-YOLO)}
@@ -712,6 +730,23 @@ Testowy     & 0{,}930 & 0{,}888 & 0{,}963 & 0{,}693 \\
     \texttt{Q}, \texttt{X}, \texttt{8}/\texttt{B}.
 \end{itemize}
 
+\end{frame}
+
+\begin{frame}{Wyniki -- detekcja znaków (Char-YOLO)}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{pics/results2-krzywe.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Wyniki -- detekcja znaków (Char-YOLO)}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.49\textwidth]{pics/confusion_matrix.png}
+    \includegraphics[width=0.49\textwidth]{pics/confusion_matrix_normalized.png}
+\end{figure}
 \end{frame}
 
 %---------------------------------------------------------
