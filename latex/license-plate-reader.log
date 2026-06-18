@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.28)  18 JUN 2026 00:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.28)  18 JUN 2026 04:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1016,12 +1016,32 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
 [21
 
 ]
+<pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png, id=691, 1582.713pt x 301.3103pt>
+File: pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png Graphic file (type png)
+<use pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png>
+Package pdftex.def Info: pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png  used on input line 734.
+(pdftex.def)             Requested size: 342.43532pt x 65.18964pt.
+<pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png, id=692, 1565.47939pt x 315.76431pt>
+File: pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png Graphic file (type png)
+<use pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png>
+Package pdftex.def Info: pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png  used on input line 734.
+(pdftex.def)             Requested size: 342.43532pt x 69.06845pt.
+<pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png, id=693, 1582.713pt x 301.86623pt>
+File: pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png Graphic file (type png)
+<use pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png>
+Package pdftex.def Info: pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png  used on input line 734.
+(pdftex.def)             Requested size: 342.43532pt x 65.3099pt.
+
 
 [22
 
-]
+ <./pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png> <./pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png> <./pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png>]
 
 [23
+
+]
+
+[24
 
 ]
 \tf@nav=\write6
@@ -1042,18 +1062,18 @@ Package rerunfilecheck Info: File `license-plate-reader.out' has not changed.
 (rerunfilecheck)             Checksum: 0A41D6AED9EFF9E053B2007BB6CC0D3B;1104.
  ) 
 Here is how much of TeX's memory you used:
- 27189 strings out of 473201
- 536727 string characters out of 5720299
- 911520 words of memory out of 5000000
- 49815 multiletter control sequences out of 15000+600000
+ 27214 strings out of 473201
+ 538432 string characters out of 5720299
+ 911555 words of memory out of 5000000
+ 49838 multiletter control sequences out of 15000+600000
  647380 words of font info for 102 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,445b,1103s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on license-plate-reader.pdf (23 pages, 3518858 bytes).
+Output written on license-plate-reader.pdf (24 pages, 5780645 bytes).
 PDF statistics:
- 819 PDF objects out of 1000 (max. 8388607)
- 705 compressed objects within 8 object streams
- 56 named destinations out of 1000 (max. 500000)
- 208 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 852 PDF objects out of 1000 (max. 8388607)
+ 730 compressed objects within 8 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
 
