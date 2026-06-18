@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.28)  18 JUN 2026 04:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.2.28)  18 JUN 2026 10:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -878,17 +878,7 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 171.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 171.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 171.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 171.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 171.
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 171.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 180.
 
 
 [6
@@ -906,15 +896,15 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
 [9
 
 ]
-<pics/dataset1.jpg, id=344, 1014.79124pt x 897.3525pt>
+<pics/dataset1.jpg, id=338, 1014.79124pt x 897.3525pt>
 File: pics/dataset1.jpg Graphic file (type jpg)
 <use pics/dataset1.jpg>
-Package pdftex.def Info: pics/dataset1.jpg  used on input line 387.
+Package pdftex.def Info: pics/dataset1.jpg  used on input line 396.
 (pdftex.def)             Requested size: 136.97203pt x 121.10997pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 387.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 396.
 
-Overfull \vbox (18.27953pt too high) detected at line 387
+Overfull \vbox (18.27953pt too high) detected at line 396
  []
 
 
@@ -922,15 +912,15 @@ Overfull \vbox (18.27953pt too high) detected at line 387
 [10
 
  <./pics/dataset1.jpg>]
-<pics/cropy1.png, id=375, 335.45325pt x 269.808pt>
+<pics/cropy1.png, id=369, 335.45325pt x 269.808pt>
 File: pics/cropy1.png Graphic file (type png)
 <use pics/cropy1.png>
-Package pdftex.def Info: pics/cropy1.png  used on input line 428.
+Package pdftex.def Info: pics/cropy1.png  used on input line 437.
 (pdftex.def)             Requested size: 102.73163pt x 82.62685pt.
-<pics/cropy2.png, id=377, 170.43675pt x 166.82326pt>
+<pics/cropy2.png, id=371, 170.43675pt x 166.82326pt>
 File: pics/cropy2.png Graphic file (type png)
 <use pics/cropy2.png>
-Package pdftex.def Info: pics/cropy2.png  used on input line 428.
+Package pdftex.def Info: pics/cropy2.png  used on input line 437.
 (pdftex.def)             Requested size: 102.73163pt x 100.55545pt.
 
 
@@ -941,40 +931,40 @@ Package pdftex.def Info: pics/cropy2.png  used on input line 428.
 [12
 
 ]
-<pics/dataset2.png, id=435, 1194.4625pt x 640.3925pt>
+<pics/dataset2.png, id=429, 1194.4625pt x 640.3925pt>
 File: pics/dataset2.png Graphic file (type png)
 <use pics/dataset2.png>
-Package pdftex.def Info: pics/dataset2.png  used on input line 474.
+Package pdftex.def Info: pics/dataset2.png  used on input line 483.
 (pdftex.def)             Requested size: 167.79518pt x 89.95724pt.
-<pics/dataset2-2.png, id=436, 430.7292pt x 221.8689pt>
+<pics/dataset2-2.png, id=430, 430.7292pt x 221.8689pt>
 File: pics/dataset2-2.png Graphic file (type png)
 <use pics/dataset2-2.png>
-Package pdftex.def Info: pics/dataset2-2.png  used on input line 474.
+Package pdftex.def Info: pics/dataset2-2.png  used on input line 483.
 (pdftex.def)             Requested size: 171.21765pt x 88.19415pt.
 
 
 [13
 
  <./pics/dataset2.png (PNG copy)> <./pics/dataset2-2.png>]
-<pics/syntatyki.png, id=466, 1076.1003pt x 127.1952pt>
+<pics/syntatyki.png, id=460, 1076.1003pt x 127.1952pt>
 File: pics/syntatyki.png Graphic file (type png)
 <use pics/syntatyki.png>
-Package pdftex.def Info: pics/syntatyki.png  used on input line 505.
+Package pdftex.def Info: pics/syntatyki.png  used on input line 514.
 (pdftex.def)             Requested size: 342.43532pt x 40.47427pt.
 
 
 [14
 
  <./pics/syntatyki.png>]
-<pics/syntatyki2.png, id=495, 1292.9103pt x 317.988pt>
+<pics/syntatyki2.png, id=489, 1292.9103pt x 317.988pt>
 File: pics/syntatyki2.png Graphic file (type png)
 <use pics/syntatyki2.png>
-Package pdftex.def Info: pics/syntatyki2.png  used on input line 531.
+Package pdftex.def Info: pics/syntatyki2.png  used on input line 540.
 (pdftex.def)             Requested size: 273.9493pt x 67.37625pt.
-<pics/syntatyki3.png, id=496, 1292.9103pt x 300.6432pt>
+<pics/syntatyki3.png, id=490, 1292.9103pt x 300.6432pt>
 File: pics/syntatyki3.png Graphic file (type png)
 <use pics/syntatyki3.png>
-Package pdftex.def Info: pics/syntatyki3.png  used on input line 531.
+Package pdftex.def Info: pics/syntatyki3.png  used on input line 540.
 (pdftex.def)             Requested size: 273.9493pt x 63.70119pt.
 
 
@@ -985,10 +975,10 @@ Package pdftex.def Info: pics/syntatyki3.png  used on input line 531.
 [16
 
 ]
-<pics/dataset3.jpg, id=553, 83.8332pt x 101.178pt>
+<pics/dataset3.jpg, id=547, 83.8332pt x 101.178pt>
 File: pics/dataset3.jpg Graphic file (type jpg)
 <use pics/dataset3.jpg>
-Package pdftex.def Info: pics/dataset3.jpg  used on input line 586.
+Package pdftex.def Info: pics/dataset3.jpg  used on input line 595.
 (pdftex.def)             Requested size: 95.87999pt x 115.72388pt.
 
 
@@ -996,52 +986,71 @@ Package pdftex.def Info: pics/dataset3.jpg  used on input line 586.
 
  <./pics/dataset3.jpg>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 617.
+(Font)              <9> on input line 626.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 626.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <9> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 617.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 626.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 626.
 
 
 [18
 
 ]
+<pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png, id=601, 1582.713pt x 301.3103pt>
+File: pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png Graphic file (type png)
+<use pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png>
+Package pdftex.def Info: pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png  used on input line 646.
+(pdftex.def)             Requested size: 342.43532pt x 65.18964pt.
+<pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png, id=602, 1565.47939pt x 315.76431pt>
+File: pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png Graphic file (type png)
+<use pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png>
+Package pdftex.def Info: pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png  used on input line 646.
+(pdftex.def)             Requested size: 342.43532pt x 69.06845pt.
+<pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png, id=603, 1582.713pt x 301.86623pt>
+File: pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png Graphic file (type png)
+<use pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png>
+Package pdftex.def Info: pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png  used on input line 646.
+(pdftex.def)             Requested size: 342.43532pt x 65.3099pt.
+
 
 [19
 
-]
+ <./pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png> <./pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png> <./pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png>]
+<pics/results/qual_17_1649292507307_jpg.rf.4c920459b889dc3db5fe3c57592f3011.png, id=637, 1556.02869pt x 315.76431pt>
+File: pics/results/qual_17_1649292507307_jpg.rf.4c920459b889dc3db5fe3c57592f3011.png Graphic file (type png)
+<use pics/results/qual_17_1649292507307_jpg.rf.4c920459b889dc3db5fe3c57592f3011.png>
+Package pdftex.def Info: pics/results/qual_17_1649292507307_jpg.rf.4c920459b889dc3db5fe3c57592f3011.png  used on input line 658.
+(pdftex.def)             Requested size: 342.43532pt x 69.48763pt.
+<pics/results/qual_27_rotatequandoi56_jpg.rf.2b5c15ef533a91f3859692fd3f265df6.png, id=638, 1535.45953pt x 315.76431pt>
+File: pics/results/qual_27_rotatequandoi56_jpg.rf.2b5c15ef533a91f3859692fd3f265df6.png Graphic file (type png)
+<use pics/results/qual_27_rotatequandoi56_jpg.rf.2b5c15ef533a91f3859692fd3f265df6.png>
+Package pdftex.def Info: pics/results/qual_27_rotatequandoi56_jpg.rf.2b5c15ef533a91f3859692fd3f265df6.png  used on input line 658.
+(pdftex.def)             Requested size: 342.43532pt x 70.41754pt.
+
 
 [20
 
-]
+ <./pics/results/qual_17_1649292507307_jpg.rf.4c920459b889dc3db5fe3c57592f3011.png> <./pics/results/qual_27_rotatequandoi56_jpg.rf.2b5c15ef533a91f3859692fd3f265df6.png>]
 
 [21
 
 ]
-<pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png, id=691, 1582.713pt x 301.3103pt>
-File: pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png Graphic file (type png)
-<use pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png>
-Package pdftex.def Info: pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png  used on input line 734.
-(pdftex.def)             Requested size: 342.43532pt x 65.18964pt.
-<pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png, id=692, 1565.47939pt x 315.76431pt>
-File: pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png Graphic file (type png)
-<use pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png>
-Package pdftex.def Info: pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png  used on input line 734.
-(pdftex.def)             Requested size: 342.43532pt x 69.06845pt.
-<pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png, id=693, 1582.713pt x 301.86623pt>
-File: pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png Graphic file (type png)
-<use pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png>
-Package pdftex.def Info: pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png  used on input line 734.
-(pdftex.def)             Requested size: 342.43532pt x 65.3099pt.
-
 
 [22
 
- <./pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png> <./pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png> <./pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png>]
+]
 
 [23
 
 ]
 
 [24
+
+]
+
+[25
 
 ]
 \tf@nav=\write6
@@ -1063,17 +1072,17 @@ Package rerunfilecheck Info: File `license-plate-reader.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  27214 strings out of 473201
- 538432 string characters out of 5720299
- 911555 words of memory out of 5000000
+ 539442 string characters out of 5720299
+ 911499 words of memory out of 5000000
  49838 multiletter control sequences out of 15000+600000
- 647380 words of font info for 102 fonts, out of 8000000 for 9000
+ 633896 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,445b,1103s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsso9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt9.pfb>
-Output written on license-plate-reader.pdf (24 pages, 5780645 bytes).
+Output written on license-plate-reader.pdf (25 pages, 7110047 bytes).
 PDF statistics:
- 852 PDF objects out of 1000 (max. 8388607)
- 730 compressed objects within 8 object streams
- 58 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 878 PDF objects out of 1000 (max. 8388607)
+ 750 compressed objects within 8 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 

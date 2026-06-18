@@ -80,7 +80,7 @@
 
     \vspace{0.3cm}
 
-    Wyniki: detekcja tablicy \textbf{mAP@0.5 = 0{,}97}, odczyt całej tablicy \textbf{exact match $\approx$ 61\%}, błąd na poziomie znaku \textbf{CER $\approx$ 0{,}15}.
+    Wyniki: detekcja tablicy \textbf{mAP@0.5 = 0{,}97}, odczyt całej tablicy \textbf{exact match $\approx$ 69\%}, błąd na poziomie znaku \textbf{CER $\approx$ 0{,}17}.
 
 \end{frame}
 
@@ -151,21 +151,30 @@ Zbudowanie systemu, który z fotografii pojazdu zwraca ciąg znaków odpowiadaj�
 \small
 
 \begin{itemize}
+    \item Arbab, B. A. \textit{License Plate Detection Dataset (10,125 Images)}. Kaggle.\\
+    %\url{https://www.kaggle.com/datasets/barkataliarbab/license-plate-detection-dataset-10125-images}
+
+    \item Pettini, F. \textit{License Plate Characters Detection OCR}. Kaggle.\\
+    %\url{https://www.kaggle.com/datasets/francescopettini/license-plate-characters-detection-ocr}
+
+    \item Yazdani, N. \textit{License Plate Text Recognition Dataset}. Kaggle.\\
+    %\url{https://www.kaggle.com/datasets/nickyazdani/license-plate-text-recognition-dataset}
+
     \item Khanam, R., Hussain, M. (2024).
     \textit{YOLOv11: An Overview of the Key Architectural Enhancements}.
-    arXiv:2410.17725.\\
-    \url{https://arxiv.org/abs/2410.17725}
+    arXiv:2410.17725.
 
     \item Jocher, G., Qiu, J. (2024).
     \textit{Ultralytics YOLO11} (Version 11.0.0) [Computer software].
     GitHub.\\
-    \url{https://github.com/ultralytics/ultralytics}
+    %\url{https://github.com/ultralytics/ultralytics}
 
-    \item Arbab, B. A. \textit{License Plate Detection Dataset (10,125 Images)}. Kaggle.\\
-    \url{https://www.kaggle.com/datasets/barkataliarbab/license-plate-detection-dataset-10125-images}
+    \item Laroca et al. (2018).
+    \textit{A Robust Real-Time Automatic License Plate Recognition Based on the YOLO Detector}.
+    International Joint Conference on Neural Networks.
 
-    \item Yazdani, N. \textit{License Plate Text Recognition Dataset}. Kaggle.\\
-    \url{https://www.kaggle.com/datasets/nickyazdani/license-plate-text-recognition-dataset}
+    \item Tourani et al. (2020).
+    \textit{A Robust Deep Learning Approach for Automatic Iranian Vehicle License Plate Detection and Recognition for Surveillance Systems}. IEEE Access.
 \end{itemize}
 
 \end{frame}
@@ -623,6 +632,31 @@ i znaków specjalnych, pozostawienie wyłącznie \texttt{[A-Z0-9]}.
 \section{Wyniki}
 %---------------------------------------------------------
 
+\begin{frame}{Wyniki -- przykłady}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png}
+
+    \includegraphics[width=\textwidth]{pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png}
+
+    \includegraphics[width=\textwidth]{pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png}
+\end{figure}
+
+\end{frame}
+
+\begin{frame}{Wyniki -- przykłady}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{pics/results/qual_17_1649292507307_jpg.rf.4c920459b889dc3db5fe3c57592f3011.png}
+
+    \includegraphics[width=\textwidth]{pics/results/qual_27_rotatequandoi56_jpg.rf.2b5c15ef533a91f3859692fd3f265df6.png}
+
+\end{figure}
+
+\end{frame}
+
 \begin{frame}{Wyniki -- detekcja tablicy (YOLO11n)}
 
 Metryki detekcji tablicy (jedna klasa \texttt{License\_Plate}):
@@ -663,8 +697,8 @@ Metryki detekcji 36 klas znaków (val/test w 100\% prawdziwe):
 \toprule
 \textbf{Zbiór} & \textbf{Precision} & \textbf{Recall} & \textbf{mAP@0.5} & \textbf{mAP@0.5:0.95} \\
 \midrule
-Walidacyjny & 0{,}818 & 0{,}792 & 0{,}838 & 0{,}605 \\
-Testowy     & 0{,}933 & 0{,}889 & 0{,}959 & 0{,}680 \\
+Walidacyjny & 0{,}850 & 0{,}758 & 0{,}812 & 0{,}588 \\
+Testowy     & 0{,}930 & 0{,}888 & 0{,}963 & 0{,}693 \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -693,9 +727,9 @@ Ewaluacja \textbf{tekstowa} na ręcznie oznaczonej próbce (\textbf{177 przykła
 \toprule
 \textbf{Metryka} & \textbf{Wartość} \\
 \midrule
-Exact match (cała tablica poprawna) & 0{,}610 \\
-Similarity (podobieństwo ciągów)    & 0{,}877 \\
-CER (Character Error Rate)          & 0{,}147 \\
+Exact match (cała tablica poprawna) & 0{,}590 \\
+Similarity (podobieństwo ciągów)    & 0{,}850 \\
+CER (Character Error Rate)          & 0{,}175 \\
 \bottomrule
 \end{tabular}
 \end{center}
@@ -703,7 +737,7 @@ CER (Character Error Rate)          & 0{,}147 \\
 \vspace{0.2cm}
 
 \begin{itemize}
-    \item Ok.\ \textbf{61\%} tablic odczytanych \textbf{w pełni poprawnie}.
+    \item Ok.\ \textbf{59\%} tablic odczytanych \textbf{w pełni poprawnie}.
     \item Średnio \textbf{$\sim$15\% znaków} z błędem (CER) -- najczęściej
     pojedyncza pomyłka na tablicę.
     \item Wysokie \emph{similarity} (0{,}88) oznacza, że nawet błędne odczyty
@@ -719,19 +753,6 @@ CER (Character Error Rate)          & 0{,}147 \\
 
 
 
-\begin{frame}{Wyniki -- przykłady}
-
-\begin{figure}
-    \centering
-    \includegraphics[width=\textwidth]{pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png}
-
-    \includegraphics[width=\textwidth]{pics/results/qual_11_xemay1219_jpg.rf.e5bb93854f2fd6584e9810eaeff20ec2.png}
-
-
-    \includegraphics[width=\textwidth]{pics/results/qual_28_pic_128_jpg.rf.b4e72fef6e163e637bb96331492539ab.png}
-\end{figure}
-
-\end{frame}
 
 
 
@@ -747,9 +768,9 @@ CER (Character Error Rate)          & 0{,}147 \\
     tablice} -- detekcja tablicy niemal bezbłędna (mAP@0.5 $\approx$ 0{,}97).
     \item \textbf{Dane syntetyczne} okazały się kluczowe: pozwoliły obejść problem
     małego zbioru oznaczonych znaków bez ręcznego etykietowania.
-    \item \textbf{Pseudo-etykietowanie} dostarczyło dodatkowych, darmowych prawdziwych
+    \item \textbf{Pseudo-etykietowanie} dostarczyło dodatkowych, darmowych
     danych, a zgodność tekstu zadziałała jak automatyczny filtr jakości.
-    \item Wąskim gardłem pozostaje \textbf{etap odczytu znaków} (61\% exact match):
+    \item Wąskim gardłem pozostaje \textbf{etap odczytu znaków} (59\% exact match):
     pojedyncze pomyłki na trudnych/krzywych tablicach obniżają dokładność całej tablicy.
 \end{itemize}
 
