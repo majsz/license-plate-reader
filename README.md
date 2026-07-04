@@ -5,8 +5,7 @@ Authors: **Joanna Dagil** and **Maja Szerszen**
 (readme file generated based on presentation in polish in subfolder `latex`)
 
 This project focuses on automatically reading a vehicle license plate number
-from a photograph. The solution follows the presentation structure and uses a
-two-stage YOLO11 pipeline: first the plate is detected in the full image, then
+from a photograph. The solution uses a two-stage YOLO11 pipeline: first the plate is detected in the full image, then
 individual characters are recognized from the cropped plate.
 
 ![Example OCR result](latex/pics/results/qual_10_pic_412_jpg.rf.b048cc6feb0798b1e6561565babb9a69.png)
